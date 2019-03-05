@@ -77,7 +77,7 @@ def won?(board)
 end
 
 def full?
-  @board.all? {|index| index == "X" || index == "O"}
+  @board.all? {|square| index == "X" || index == "O"}
 end
 
 def draw?(board)
