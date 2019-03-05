@@ -80,12 +80,8 @@ def full?
   @board.all? {|square| square != " " }
 end
 
-def draw?(board)
-  if !won?(board) && full?(board)
-    return true
-  else
-    return false
-  end
+def draw?
+  full? && won
 end
 
 def over?(board)
