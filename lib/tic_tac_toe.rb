@@ -93,10 +93,8 @@ def winner
     @board[combo[0]]
 end
 
-def play
-  turn until over?
-  puts winner? "Congratulations #{winner}!" : "Cat's game!"
- end 
- end 
-end 
-end 
+ def play
+    turn until over?
+    puts winner ? "Congratulations #{winner}!" : "Cat's Game!"
+  end
+  
