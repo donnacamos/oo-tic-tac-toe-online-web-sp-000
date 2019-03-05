@@ -55,7 +55,7 @@ end
   end
 
 def turn_count
-  @board.count{|square| square
+  @board.count{|square| square != " "} 
 end
 
 def current_player(board)
