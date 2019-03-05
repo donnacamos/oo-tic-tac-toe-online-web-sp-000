@@ -69,7 +69,7 @@ end
 
 def won?(board)
   WIN_COMBINATIONS.any? do |combo|
-    if position_taken? 
+    if position_taken?(combo)
 end
 
 def full?(board)
