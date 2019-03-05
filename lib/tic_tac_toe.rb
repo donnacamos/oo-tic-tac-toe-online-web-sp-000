@@ -21,4 +21,6 @@ end
 def board
   @board
 end 
+
+
 end 
