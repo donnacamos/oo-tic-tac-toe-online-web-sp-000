@@ -61,7 +61,7 @@ end
 def turn
  puts "Please enter a number (1-9):"
  user_input = gets.strip
- 
+ index = 
 end
 
 def won?(board)
