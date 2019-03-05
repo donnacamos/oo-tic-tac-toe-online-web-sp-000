@@ -93,15 +93,7 @@ def winner
     @board[combo[0]]
 end
 
-def play(board)
-  until over?(board) == true
-    turn(board)
-  end
-
-  if won?(board)
-    puts "Congratulations #{winner(board)}!"
-  elsif draw?(board)
-    puts "Cat's Game!"
-  end
-end 
+def play
+  
+ 
 end 
