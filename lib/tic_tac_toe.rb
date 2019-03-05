@@ -68,7 +68,7 @@ def turn
 end
 
 def won?(board)
-  WIN_COMBINATIONS.any? 
+  WIN_COMBINATIONS.any? do |combo|
 end
 
 def full?(board)
