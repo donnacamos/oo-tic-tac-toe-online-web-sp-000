@@ -12,7 +12,7 @@ WIN_COMBINATIONS = [
 
 def initialize(board = [" ", " ", " ", " ", " ", " ", " ", " ", " "])
         @board = board
-      end 
+end 
       
 def board=(board)
   @board = board
