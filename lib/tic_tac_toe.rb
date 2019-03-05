@@ -58,7 +58,7 @@ def turn_count
   @board.count{|square| square != " "} 
 end
 
-def turn(board)
+def turn
   puts "Please choose a number 1-9:"
   user_input = gets.chomp
   index = input_to_index(user_input)
